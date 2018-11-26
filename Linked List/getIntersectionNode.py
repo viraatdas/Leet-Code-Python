@@ -10,11 +10,11 @@ class Solution(object):
         :type head1, head1: ListNode
         :rtype: ListNode
         """
-        countA = 0
-	countB = 0
+    countA = 0
+    countB = 0
 
-	if headA == None or headB == None:
-		return None
+    if headA == None or headB == None:
+	    return None
 
 	Apointer = headA 
 	Bpointer = headB
